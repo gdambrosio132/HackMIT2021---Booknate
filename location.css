@@ -1,0 +1,135 @@
+#map {
+	height: 790px;
+	width:  50%;
+	float: right;
+    bottom: 0;
+    left: 0;
+
+}
+
+body{
+    background: #99ffb8;
+}
+#test{
+	text-align: center; 
+	width: 50%;
+	height: 665px;
+	float:  left;
+    padding-top: 150px;
+    font-family: poppins;
+}
+
+#test2{
+	text-align: center;
+	width: 100%;
+	float: left;
+    font-family: poppins;
+
+}
+
+.sb-example-1{
+
+}
+
+.sb-example-1 .search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+.sb-example-1 .searchTerm {
+  width: 100%;
+  border: 3px solid #00B4CC;
+  border-right: none;
+  padding: 5px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+.sb-example-1 .searchTerm:focus{
+  color: #00B4CC;
+}
+.sb-example-1 .searchButton {
+  width: 40px;
+  height: 50px;
+  border: 1px solid #00B4CC;
+  background: #00B4CC;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.sb-example-1 .searchButton i{
+  color: #0052cc;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.site-title{
+    font-family: 'Roboto Slab', serif;
+    font-size: 4rem;
+    padding: 10px 650px;
+}
+
+nav {
+    float: right;
+    line-height: 100px;
+}
+nav a {
+    text-decoration: underline;
+    font-family: poppins;
+    letter-spacing: 4px;
+    font-size: 20px;
+    margin: 0 10px;
+    color: rgb(36, 33, 33);
+}
+
+header {
+    height: 100px;
+    background: #ffc06e;
+    width: 100%;
+    z-index: 10;
+    position: fixed;
+}
+
+.nav-link{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 6px 14px;
+}
+
+.nav-link:hover{
+    color: black;
+    background-color: grey;
+}
+
+.container{
+	background-color: #AADAFF;
+	font-family: monospace;
+}
+
+
+
+.wrapper {
+    width: 1500px;
+    margin: 0 auto;
+}
+.logo {
+    width: 30%;
+    float: left;
+    line-height: 100px;
+}
+.logo a {
+    text-decoration: none;
+    font-size: 30px;
+    font-family: poppins;
+    color: rgb(34, 31, 31);
+    letter-spacing: 5px;
+}

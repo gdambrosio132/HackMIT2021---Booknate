@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    background: #99ffb8;
+}
+
+.site-title{
+    font-family: 'Roboto Slab', serif;
+    font-size: 4rem;
+    padding: 10px 30px;
+}
+
+nav {
+    float: right;
+    line-height: 100px;
+}
+nav a {
+    text-decoration: underline;
+    font-family: poppins;
+    letter-spacing: 4px;
+    font-size: 20px;
+    margin: 0 10px;
+    color: rgb(36, 33, 33);
+}
+
+header {
+    height: 100px;
+    background: #ffc06e;
+    width: 100%;
+    z-index: 10;
+    
+}
+
+.nav-link{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 6px 14px;
+}
+
+.nav-link:hover{
+    color: black;
+    background-color: grey;
+}
+
+.container{
+
+    width: 900px;
+    margin: 16px auto;
+}
+
+.inside-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 53%;
+}
+
+h1{
+    text-align: center;
+    font-style: italic;
+    padding: 5px;
+}
+
+p{
+    margin: 5px;
+}
+
+.text-box{
+    margin: 1rem 0;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+}
+
+.wrapper {
+    width: 1500px;
+    margin: 0 auto;
+}
+.logo {
+    width: 30%;
+    float: left;
+    line-height: 100px;
+}
+.logo a {
+    text-decoration: none;
+    font-size: 30px;
+    font-family: poppins;
+    color: rgb(34, 31, 31);
+    letter-spacing: 5px;
+}
